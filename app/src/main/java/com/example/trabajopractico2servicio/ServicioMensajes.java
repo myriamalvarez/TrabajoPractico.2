@@ -47,7 +47,7 @@ public class ServicioMensajes extends Service {
             Log.d("Mensaje", " "+
                     "\n         Remitente: " + cursor.getString(2) +
                     "\nFecha de recepción: " + cursor.getString(4) +
-                    "\n           Textonc: " + cursor.getString(12));
+                    "\n             Texto: " + cursor.getString(12));
         }
 
         cursor.close();
